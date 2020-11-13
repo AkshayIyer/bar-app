@@ -22,14 +22,14 @@
 }
 
 .stuff {
-  background-color: darkslateblue;
+  background-color: #1f1f1f;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-header {
-  background-color: darkslateblue;
+  background-color: #1f1f1f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
