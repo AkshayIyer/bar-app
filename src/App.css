@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: darkslateblue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,55 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h1 {
+  font-size: 300%; 
+}
+
+
+
+.managerButton {
+  font-size: 50px;
+  width: 14em;
+  height: 2em;
+  color: white;
+  background-color: mediumseagreen;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: 2%;
+  outline:none;
+}
+
+.bartenderButton {
+  font-size: 50px;
+  width: 14em;
+  height: 2em;
+  color: white;
+  background-color: mediumseagreen;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: 2%;
+  outline:none;
+}
+
+.loginButton {
+  font-size: 50px;
+  width: 14em;
+  height: 2em;
+  color: white;
+  background-color: purple;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: 2%;
+  outline:none;
+  
 }
 
 @keyframes App-logo-spin {
