@@ -13,6 +13,21 @@
   }
 }
 
+.white {
+  color: white;
+}
+
+.spaceTop {
+  margin-top: 25px;
+}
+
+.stuff {
+  background-color: darkslateblue;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-header {
   background-color: darkslateblue;
   min-height: 100vh;
@@ -29,10 +44,8 @@
 }
 
 h1 {
-  font-size: 300%; 
+  font-size: 300%;
 }
-
-
 
 .managerButton {
   font-size: 50px;
@@ -45,7 +58,11 @@ h1 {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   margin: 2%;
-  outline:none;
+  outline: none;
+}
+
+.rightmost {
+  float: right;
 }
 
 .bartenderButton {
@@ -59,7 +76,7 @@ h1 {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   margin: 2%;
-  outline:none;
+  outline: none;
 }
 
 .loginButton {
@@ -73,8 +90,7 @@ h1 {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   margin: 2%;
-  outline:none;
-  
+  outline: none;
 }
 
 @keyframes App-logo-spin {
