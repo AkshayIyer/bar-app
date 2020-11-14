@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'reactstrap';
 import '../App.css'
+import { Link } from 'react-router-dom'
 
 
 export default function AdminSelect(props){
@@ -8,7 +9,9 @@ export default function AdminSelect(props){
         <div class = "App">
             <header className="App-header">
                 <div>
-                    <Button className = "button managerButton">Bartender Insights</Button>
+                    <Link to = "/inventory">
+                        <Button className = "button managerButton">Bartender Insights</Button>
+                    </Link>
                     <Button className = "button managerButton">Inventory Insights</Button>
                 </div>
             </header>

@@ -31,7 +31,7 @@ function App() {
       </Route>
 
       <Route path="/inventory">
-        <AdminSelect userType = {userType} handleUserType = {handleUserType}/>
+        <Inventory userType = {userType} handleUserType = {handleUserType}/>
       </Route>
       <Route path="/admin">
         <AdminSelect userType = {userType} handleUserType = {handleUserType}/>

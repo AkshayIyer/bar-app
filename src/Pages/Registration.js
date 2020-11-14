@@ -19,7 +19,7 @@ export default function Registration(props) {
     return(
         <div class="App-header">
         <h1> BarIQ </h1>
-
+        
         <TextField className = {classes.root}
         InputLabelProps = {{
             className: classes.input
@@ -61,7 +61,6 @@ export default function Registration(props) {
         label="Access ID" />
         : null}
         <div class = "spaceTop">
-        
         <Link to = "/">
                 <Button className = "button bartenderButton">Register</Button>
         </Link>

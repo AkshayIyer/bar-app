@@ -29,7 +29,6 @@ export default function Login(props){
             className: classes.input
         }}
         label="Username" />
-    
         <TextField className = {classes.root}
         type = "password"
         InputLabelProps = {{
@@ -40,11 +39,11 @@ export default function Login(props){
             className: classes.input
         }}
         label="Password" />
-        
-        <Link to = "/inventory">
+        <div class = "spaceTop">
+        <Link to = "/admin">
                 <Button className = "button bartenderButton">Login</Button>
         </Link>
-        
+        </div>
         </div>
     )
 }
