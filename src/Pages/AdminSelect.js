@@ -12,7 +12,10 @@ export default function AdminSelect(props){
                     <Link to = "/inventory">
                         <Button className = "button managerButton">Bartender Insights</Button>
                     </Link>
-                    <Button className = "button managerButton">Inventory Insights</Button>
+
+                    <Link to = "/drinks">
+                        <Button className = "button managerButton">Inventory Insights</Button>
+                    </Link>
                 </div>
             </header>
         </div>

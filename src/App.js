@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 
 import Inventory  from './Pages/Inventory';
+import Drinks from './Pages/Drinks';
 
 function App() {
   const [userType, setUserType] = React.useState("user");
@@ -35,6 +36,10 @@ function App() {
       </Route>
       <Route path="/admin">
         <AdminSelect userType = {userType} handleUserType = {handleUserType}/>
+      </Route>
+
+      <Route path = "/drinks">
+        <Drinks userType = {userType} handleUserType = {handleUserType}/>
       </Route>
       <Route path="/">
         <Home userType = {userType} handleUserType = {handleUserType}/>
