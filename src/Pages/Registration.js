@@ -15,14 +15,11 @@ const useStyles = makeStyles({
     }
 });
 export default function Registration(props) {
-    // useEffect(() => {
-    //    console.log("Hello World")
-    //    props.setUsername("John Smith")
-    // }, [])
     const classes = useStyles();
     return(
         <div class="App-header">
         <h1> BarIQ </h1>
+
         <TextField className = {classes.root}
         InputLabelProps = {{
             className: classes.input
@@ -31,6 +28,7 @@ export default function Registration(props) {
             className: classes.input
         }}
         label="Username" />
+
         <TextField className = {classes.root}
         type = "password"
         InputLabelProps = {{
@@ -41,6 +39,7 @@ export default function Registration(props) {
             className: classes.input
         }}
         label="Password" />
+
         <TextField className = {classes.root}
         InputLabelProps = {{
             className: classes.input
@@ -50,6 +49,7 @@ export default function Registration(props) {
             className: classes.input
         }}
         label="Confirm Password" />
+
         {props.userType == "admin" ? 
         <TextField className = {classes.root}
         InputLabelProps = {{
@@ -61,6 +61,7 @@ export default function Registration(props) {
         label="Access ID" />
         : null}
         <div class = "spaceTop">
+        
         <Link to = "/">
                 <Button className = "button bartenderButton">Register</Button>
         </Link>

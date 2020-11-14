@@ -4,10 +4,6 @@ import React, {useState, useEffect} from "react";
 import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom'
 export default function Home(props) {
-    // useEffect(() => {
-    //    console.log("Hello World")
-    //    props.setUsername("John Smith")
-    // }, [])
     return(
         <div className="App">
         <header className="App-header">

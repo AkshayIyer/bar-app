@@ -11,6 +11,8 @@ import {
   Route,
 } from "react-router-dom";
 
+import Inventory  from './Pages/Inventory';
+
 function App() {
   const [userType, setUserType] = React.useState("user");
 
@@ -27,12 +29,17 @@ function App() {
       <Route path="/login">
         <Login userType = {userType} handleUserType = {handleUserType}/>
       </Route>
+
+      <Route path="/inventory">
+        <AdminSelect userType = {userType} handleUserType = {handleUserType}/>
+      </Route>
       <Route path="/admin">
         <AdminSelect userType = {userType} handleUserType = {handleUserType}/>
       </Route>
       <Route path="/">
         <Home userType = {userType} handleUserType = {handleUserType}/>
       </Route>
+      
     </Switch>
   </BrowserRouter>
   </div>
